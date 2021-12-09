@@ -30,6 +30,10 @@
     "vue-tsc": "^0.2.2"
   },
   "lint-staged": {
-    "*.{ts,tsx,vue,js,jsx}": "eslint --cache --fix"
+    "*.{ts,tsx,vue,js,jsx}": [
+      "npm run lint",
+      "prettier --write",
+      "git add"
+    ]
   }
 }
