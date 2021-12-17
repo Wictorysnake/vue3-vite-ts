@@ -7,14 +7,14 @@ module.exports = {
   semi: false,
   overrides: [
     {
-      files: "*.json",
+      files: '*.json',
       options: {
         printWidth: 200,
       },
     },
   ],
-  arrowParens: "always",
-};
+  arrowParens: 'always',
+}
 
 //   作者：前端开发爱好者
 //   链接：https://zhuanlan.zhihu.com/p/441467856
